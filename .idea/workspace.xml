@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759ffa00-a826-4c75-ad00-b69d81e208f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhao/algorithm/balance/LeastConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhao/algorithm/out/FIFO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,15 +24,6 @@
                 <element signature="e#374#375#0" expanded="true" />
                 <element signature="e#425#426#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhao/algorithm/limit/Barrel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -108,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhao/algorithm/balance/LeastConnect.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-245">
@@ -123,6 +114,20 @@
                 <element signature="e#414#415#0" expanded="true" />
                 <element signature="e#467#468#0" expanded="true" />
                 <element signature="e#502#503#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhao/algorithm/out/FIFO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhao/algorithm/balance/WeightRoundRobin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhao/algorithm/balance/WeightRandom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhao/algorithm/balance/LeastConnect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhao/algorithm/out/FIFO.java" />
       </list>
     </option>
   </component>
@@ -231,6 +237,15 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="balance" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -243,7 +258,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1631681810649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1631749193354" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -259,7 +274,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeastConnect">
+  <component name="RunManager" selected="Application.FIFO">
+    <configuration name="FIFO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhao.algorithm.out.FIFO" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhao.algorithm.out.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Hash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhao.algorithm.balance.Hash" />
       <module name="algorithm" />
@@ -275,19 +303,6 @@
     </configuration>
     <configuration name="LeastConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhao.algorithm.balance.LeastConnect" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhao.algorithm.balance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomBalance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhao.algorithm.balance.RandomBalance" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -327,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FIFO" />
         <item itemvalue="Application.LeastConnect" />
         <item itemvalue="Application.WeightRandom" />
         <item itemvalue="Application.WeightRoundRobin" />
         <item itemvalue="Application.Hash" />
-        <item itemvalue="Application.RandomBalance" />
       </list>
     </recent_temporary>
   </component>
@@ -345,12 +360,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631508209263</updated>
-      <workItem from="1631508213630" duration="16719000" />
+      <workItem from="1631508213630" duration="17576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16719000" />
+    <option name="totallyTimeSpent" value="17576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="697" extended-state="6" />
@@ -508,6 +523,18 @@
             <element signature="e#414#415#0" expanded="true" />
             <element signature="e#467#468#0" expanded="true" />
             <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhao/algorithm/out/FIFO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
           </folding>
         </state>
       </provider>
